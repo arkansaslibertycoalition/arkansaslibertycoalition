@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color: black;
+    --main-fg-color: white;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+}
+
+footer#site-footer {
+    text-align: center;
+}
+
+body > nav {
+    background-color: var(--main-bg-color);
+}
+
+.navbar-margin {
+    margin-top: 3.5em;
+}

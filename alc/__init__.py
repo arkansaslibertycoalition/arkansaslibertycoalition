@@ -1,6 +1,7 @@
 from flask import Flask
 
 from alc.models import db
+from alc.assets import assets
 
 
 def create_app(config=None):
@@ -14,13 +15,10 @@ def create_app(config=None):
     else:
         app.config.from_mapping(config)
 
+    assets.init_app(app)
     db.init_app(app)
 
-    init_routes(app)
-
-    return app
-
-
-def init_routes(app):
     from alc.views import static
     app.register_blueprint(static.bp)
+
+    return app

@@ -5,10 +5,15 @@ name = "pypi"
 
 [dev-packages]
 pytest = "*"
+ipdb = "*"
 
 [packages]
 flask-sqlalchemy = "*"
 flask-assets = "*"
+alembic = "*"
+flask-migrate = "*"
+"psycopg2" = "*"
+stripe = "*"
 
 [requires]
 python_version = "3.7"

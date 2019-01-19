@@ -4,3 +4,8 @@ SQLALCHEMY_DATABASE_URI = 'postgresql://alc:alc@localhost/alc'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 STRIPE_KEY = 'sk_test_96anV4w3DAoiW0PxL31jENHH'
+
+USER_APP_NAME = 'Arkansas Liberty Coalition'
+USER_ENABLE_EMAIL = False
+USER_ENABLE_USERNAME = True
+USER_REQUIRE_RETYPE_PASSWORD = False

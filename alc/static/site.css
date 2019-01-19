@@ -48,6 +48,11 @@ body {
   max-width: 42em;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 
 /*
  * Header
